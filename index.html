@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Assistly AI — AI Bots & Smart Websites</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    :root {
+      --bg: #0b0e14;
+      --card: #121826;
+      --primary: #4f7cff;
+      --text: #e6e8ee;
+      --muted: #9aa3b2;
+      --accent: #22c55e;
+      --border: #1f2937;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    header {
+      text-align: center;
+      padding-top: 80px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 26px;
+      background: var(--primary);
+      color: white;
+      border-radius: 8px;
+      font-weight: 600;
+      margin-top: 25px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .section-title h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .section-title p {
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 30px;
+      position: relative;
+    }
+
+    .badge {
+      position: absolute;
+      top: -12px;
+      right: 20px;
+      background: var(--accent);
+      color: #022c22;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .card h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 36px;
+      font-weight: 800;
+      margin: 10px 0;
+    }
+
+    .price span {
+      font-size: 16px;
+      color: var(--muted);
+    }
+
+    ul {
+      padding-left: 18px;
+      margin: 20px 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color: var(--muted);
+    }
+
+    .card .btn {
+      width: 100%;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .about {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="container">
+    <h1>Assistly AI</h1>
+    <p>
+      We build smart AI bots and modern websites that automate customer conversations,
+      capture leads, and work for your business 24/7.
+    </p>
+    <a href="#pricing" class="btn">Start Free Trial</a>
+  </header>
+
+  <section class="container">
+    <div class="section-title">
+      <h2>What We Do</h2>
+      <p>Simple, powerful AI solutions for modern businesses</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>AI Chatbot</h3>
+        <p class="muted">
+          An intelligent AI bot trained to answer questions, guide users,
+          and handle conversations automatically.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Website Included</h3>
+        <p class="muted">
+          A clean, professional website with the AI bot integrated,
+          ready to convert visitors into customers.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Credits System</h3>
+        <p class="muted">
+          Each plan includes monthly AI credits.
+          Need more? Add extra credits anytime.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="pricing">
+    <div class="section-title">
+      <h2>Pricing</h2>
+      <p>Monthly plans. 7-day free trial. No credit card required.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Starter</h3>
+        <div class="price">$69.99 <span>/ month</span></div>
+        <ul>
+          <li>AI Bot</li>
+          <li>Website included</li>
+          <li>500 credits per month</li>
+        </ul>
+        <a href="https://buy.stripe.com/4gM8wR5Oy9RX5N889Ifbq0c" class="btn">
+          Start Free Trial
+        </a>
+      </div>
+
+      <div class="card">
+        <div class="badge">Most Popular</div>
+        <h3>Pro</h3>
+        <div class="price">$99.99 <span>/ month</span></div>
+        <ul>
+          <li>AI Bot</li>
+          <li>Website included</li>
+          <li>1,000 credits per month</li>
+        </ul>
+        <a href="https://buy.stripe.com/9B6aEZ4Ku0hnejEgGefbq0b" class="btn">
+          Start Free Trial
+        </a>
+      </div>
+
+      <div class="card">
+        <h3>Premium</h3>
+        <div class="price">$199.99 <span>/ month</span></div>
+        <ul>
+          <li>AI Bot</li>
+          <li>Website included</li>
+          <li>5,000 credits per month</li>
+        </ul>
+        <a href="https://buy.stripe.com/fZubJ30uec05a3o3Tsfbq0a" class="btn">
+          Start Free Trial
+        </a>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:40px; color: var(--muted);">
+      Need more credits?  
+      <a href="https://buy.stripe.com/4gM6oJ4Ku3tz0sOfCafbq09" style="color: var(--primary); font-weight:600;">
+        Add 1,000 credits per month for $20
+      </a>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="section-title">
+      <h2>About Assistly AI</h2>
+    </div>
+    <p class="about">
+      Assistly AI was created to help businesses save time, reduce support workload,
+      and convert more customers using AI.
+      We focus on simplicity, efficiency, and real-world results.
+    </p>
+  </section>
+
+  <footer>
+    ©  Assistly AI. All rights reserved.
+  </footer>
+
+</body>
+</html>
